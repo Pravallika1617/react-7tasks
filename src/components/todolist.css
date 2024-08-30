@@ -1,0 +1,106 @@
+
+
+  #add_form input{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  .delete{
+    float: right;
+    cursor: pointer;
+  }
+  
+  .mylists li:hover{
+    box-shadow: 0px 5px 10px black;
+  }
+  
+  .mylists li .delete:hover{
+      color: red;
+  }
+
+  .list {
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .list h1 {
+    text-align: center;
+    padding: 40px 0;
+    color: blueviolet;
+    font-weight: 600;
+  }
+  
+  .list input {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  
+  .list button {
+    width: 70px;
+    height: 35px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: 0px auto 0;
+    margin-bottom: 20px;
+  }
+  
+  .add{
+    display: block;
+    text-align: center;
+  }
+
+  .list button:hover {
+    background-color: rgb(63, 13, 109);
+    color: white;
+  }
+  
+  .mylists {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 400px; 
+    box-shadow: 5px 5px 10px black;
+    list-style: none;
+  }
+  
+  .mylists li {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .list h1 {
+      margin-left: 0;
+    }
+  
+    .list input {
+      margin-left: 0;
+    }
+  
+    .mylists {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .list input {
+      font-size: 14px;
+    }
+  
+    .mylists li {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.loginForm{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.loginForm form{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 30px 20px;
+    height: 25rem;
+    border-radius: 20px;
+}
+
+.loginForm form h1{
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.loginForm input{
+    padding: 15px;
+    width: auto;
+    color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 30px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.loginForm button{
+    padding: 10px;
+    width: 90px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: bisque;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+.loginForm button:hover{
+    background-color: green;
+    color: white;   
+}
+
+.loginForm p{
+  margin-top: 50px;
+}
+
+.loginForm a{
+  text-decoration: none;
+  color: blueviolet;
+  margin-left: 10px;
+}
+
+
+ 
+  .signup{
+    background-color: black;
+    color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .signup form{
+    margin-top: -150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 30px 20px;
+    height: 25rem;
+    border-radius: 20px;
+  }
+
+  .signup input{
+    padding: 15px;
+    color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 30px;
+    background-color: black;
+    margin-left: 10px;
+  }
+
+  .signup h1{
+    color: antiquewhite;
+    margin-bottom: 20px;
+  }
+
+  .signup button{
+    border-radius: 20px;
+    background-color: bisque;
+    border: 2px solid green;
+    padding: 10px;
+  }
+
+  .signup button:hover{
+    background-color: green;
+    color: antiquewhite;
+  }
+
+  .home{
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    color: antiquewhite;
+    padding-top: 250px;
+  }
+
+
+
+
+
+
